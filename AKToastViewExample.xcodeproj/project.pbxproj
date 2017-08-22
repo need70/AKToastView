@@ -12,6 +12,8 @@
 		892F06171F4C26D800F37FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892F06151F4C26D800F37FEB /* Main.storyboard */; };
 		892F06191F4C26D800F37FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892F06181F4C26D800F37FEB /* Assets.xcassets */; };
 		892F061C1F4C26D800F37FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892F061A1F4C26D800F37FEB /* LaunchScreen.storyboard */; };
+		892F06261F4C26FB00F37FEB /* AKToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F06241F4C26FB00F37FEB /* AKToastView.swift */; };
+		892F06271F4C26FB00F37FEB /* AKToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 892F06251F4C26FB00F37FEB /* AKToastView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		892F06181F4C26D800F37FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892F061B1F4C26D800F37FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892F061D1F4C26D800F37FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892F06241F4C26FB00F37FEB /* AKToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKToastView.swift; sourceTree = "<group>"; };
+		892F06251F4C26FB00F37FEB /* AKToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKToastView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		892F06101F4C26D800F37FEB /* AKToastViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				892F06231F4C26FB00F37FEB /* AKToastView */,
 				892F06111F4C26D800F37FEB /* AppDelegate.swift */,
 				892F06131F4C26D800F37FEB /* ViewController.swift */,
 				892F06151F4C26D800F37FEB /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				892F061D1F4C26D800F37FEB /* Info.plist */,
 			);
 			path = AKToastViewExample;
+			sourceTree = "<group>";
+		};
+		892F06231F4C26FB00F37FEB /* AKToastView */ = {
+			isa = PBXGroup;
+			children = (
+				892F06241F4C26FB00F37FEB /* AKToastView.swift */,
+				892F06251F4C26FB00F37FEB /* AKToastView.xib */,
+			);
+			path = AKToastView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892F06271F4C26FB00F37FEB /* AKToastView.xib in Resources */,
 				892F061C1F4C26D800F37FEB /* LaunchScreen.storyboard in Resources */,
 				892F06191F4C26D800F37FEB /* Assets.xcassets in Resources */,
 				892F06171F4C26D800F37FEB /* Main.storyboard in Resources */,
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				892F06141F4C26D800F37FEB /* ViewController.swift in Sources */,
+				892F06261F4C26FB00F37FEB /* AKToastView.swift in Sources */,
 				892F06121F4C26D800F37FEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
