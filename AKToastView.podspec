@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author    	 = “Andrew Kramar”
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/need70/AKToastView.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/need70/AKToastView.git", :tag => s.version.to_s, :branch => "master"}
   s.framework    = "UIKit"
   s.requires_arc = true
 end
